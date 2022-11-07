@@ -1,0 +1,11 @@
+framework module TipsSDK {
+  umbrella header "TipsSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module TipsSDK.Swift {
+    header "TipsSDK-Swift.h"
+    requires objc
+}
