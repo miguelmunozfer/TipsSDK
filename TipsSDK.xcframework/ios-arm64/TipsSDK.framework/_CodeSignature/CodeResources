@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		4L2SYobQIPVzl8NYDhg7/7h4Spg=
+		ztnGBX2x7pJoVUbY2cc7hTdOpFo=
 		</data>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Du7RlM1qOrXh/p+3LrcC5AXiFrU=
+		9p54Yqg5TnISQnCnz2McfaHwD1M=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X3wbv48Y9EeSQ4G1mkPrsYcvD483ONph4Cm0NR7wwgI=
+			feI+c0kXF6IOd3K/rL/MLJojQS8ZpiFFYWsMC/gX+3A=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK-Swift.h</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k7WikCcpmyA8OBvU602iOdeoziH4xJDPvct0l47m7n8=
+			Hr4lix7FbGXP2/dtnqbiWUFoDH73yo7ZQplRUv7eWyE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
