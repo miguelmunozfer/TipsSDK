@@ -40,17 +40,21 @@
 		<data>
 		Q4b0sF0J8BMzeF+xHgGS1qAV8Iw=
 		</data>
+		<key>Localizable.strings</key>
+		<data>
+		4Sphc6Gi8QZ/+wjtoWEh5LByHPU=
+		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		Hsg50E2nTmvB79nx+Kh4R9RVgKY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fPU6OXdFEUSzs7FLg9NTOxuhayw=
+		GlxXyL5mu6gj4S2dEo5u42RmqGw=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Br3EZtjFTMwyoU8XPZ397O2m5Ec=
+		e7gP0v8QIx4udVnPQN/sHTuMdx8=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,11 +62,11 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P3uN8K6tg4NDpwxIAoh0ytbT5aM=
+		zJf6VGX7RGK+VYFcWsF1G4LfXMI=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q6VoGEh3PX4j9kgeJhduBGsaXKs=
+		EgKX9Qjl6AiLAxux0DgtvdFsNFo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -131,6 +135,13 @@
 			HC89nGx4QimPj8Ad4GsibKgjzvn0f7BM1DgTtU8kQ0g=
 			</data>
 		</dict>
+		<key>Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
+			</data>
+		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -142,14 +153,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bH7t1UeRQoSAykUL7/Asf0cyZTDowzqgp3iUPdlr0rM=
+			PpttUU/RG3vi34d8PvjwFssHZZ0WbMLwAV6ZQOgIfvw=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fgJmiFeeneyXrhVK/OujdpJxgNScUTNvY0nYUn3NmBg=
+			jK/O+jj1nPzAQ1Ss3jMhIbK0xbbQ8Alda7vCZCWyhvQ=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -163,14 +174,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U5SSIXic6KkesYAccqO52lHnd16AdhktHlCQya4LJz8=
+			XSSA/casazBaJSoaM9BSNEMtvADeKD2hAd67bnk+hHU=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gBOXms45YN62ly6hn2ci1C+oMZZUFDO3g5/uq7VkdhY=
+			fZbf9pTSXAWis9nw2nrj29bZMEGsTw1GcpM1YN+zQq4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

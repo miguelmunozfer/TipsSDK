@@ -12,9 +12,19 @@ extension UIKit.UIFont {
 }
 @_hasMissingDesignatedInitializers public class Tips {
   public static let shared: TipsSDK.Tips
+  public func updateProfile(sex: TipsSDK.TipsGender?, height: Swift.Int?, weigth: Swift.Int?, birthDate: Foundation.Date?)
+  public func isDiabetic(_ isDiabetic: Swift.Bool)
   public func showTips()
   public func setMainColor(color: Swift.String)
   @objc deinit
+}
+public enum TipsGender : Swift.String, Swift.Codable {
+  case male, female
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class VitaleViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
@@ -23,3 +33,6 @@ extension UIKit.UIFont {
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+extension TipsSDK.TipsGender : Swift.Equatable {}
+extension TipsSDK.TipsGender : Swift.Hashable {}
+extension TipsSDK.TipsGender : Swift.RawRepresentable {}

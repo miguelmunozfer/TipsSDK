@@ -40,17 +40,21 @@
 		<data>
 		gh5AKWulKTA0ZtKOfE8wNpSOf6I=
 		</data>
+		<key>Localizable.strings</key>
+		<data>
+		4Sphc6Gi8QZ/+wjtoWEh5LByHPU=
+		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		pmKghlrCFll/Y4QXTWakLmADxI0=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		qwKHweKrie0BEqVpZCJdOF2DeAA=
+		YTE23mDPT3SSNXi+oSYpE1VlOK4=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		9p54Yqg5TnISQnCnz2McfaHwD1M=
+		/J6GjRXwdhT8daQup5Cqo++MdXU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -119,6 +123,13 @@
 			HC89nGx4QimPj8Ad4GsibKgjzvn0f7BM1DgTtU8kQ0g=
 			</data>
 		</dict>
+		<key>Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
+			</data>
+		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -130,14 +141,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z6DoRfEp8XYLGeuNMxBXDFQ1JZrhi+AaAKAmTwFX+YE=
+			oNzv1+CTIb+4Vb+ms178lTv3xQun2fbsxD6QyplOpP0=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hr4lix7FbGXP2/dtnqbiWUFoDH73yo7ZQplRUv7eWyE=
+			UOfKTbC1kothEuj9Tq4uXwfQ04ivSz5z8NNWecdETpo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
