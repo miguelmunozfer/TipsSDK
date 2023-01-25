@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Miguel Muñoz' => 'miguel.munoz@myvitale.com' }
   s.source           = { :git => 'https://github.com/miguelmunozfer/TipsSDK.git', :tag => "1.1.1" }
   s.ios.deployment_target = '11.0'
+  s.resources = "**/*.lproj"
   s.vendored_frameworks = 'TipsSDK.xcframework' # Your XCFramework
   s.swift_version = "5.0"
   s.swift_versions = ["5.0"]

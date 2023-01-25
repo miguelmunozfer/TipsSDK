@@ -40,10 +40,6 @@
 		<data>
 		gh5AKWulKTA0ZtKOfE8wNpSOf6I=
 		</data>
-		<key>Localizable.strings</key>
-		<data>
-		4Sphc6Gi8QZ/+wjtoWEh5LByHPU=
-		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
 		pmKghlrCFll/Y4QXTWakLmADxI0=
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/J6GjRXwdhT8daQup5Cqo++MdXU=
+		PRd98rz9jH/iQTqwuEZopeedBJI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -64,6 +60,15 @@
 		<data>
 		yySRkChVVQGNL6ECEGPIDtMpZJQ=
 		</data>
+		<key>en.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Sphc6Gi8QZ/+wjtoWEh5LByHPU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -123,13 +128,6 @@
 			HC89nGx4QimPj8Ad4GsibKgjzvn0f7BM1DgTtU8kQ0g=
 			</data>
 		</dict>
-		<key>Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
-			</data>
-		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -148,7 +146,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UOfKTbC1kothEuj9Tq4uXwfQ04ivSz5z8NNWecdETpo=
+			7vwkpHZGAI1xXmISer1L7v5pzhTNL+gyeZGXenbQXiU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -164,6 +162,15 @@
 			<data>
 			tlRzF/YhrAtfLg1jfEdO9RtNmCNpTX0mo3lseUJUPRA=
 			</data>
+		</dict>
+		<key>en.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

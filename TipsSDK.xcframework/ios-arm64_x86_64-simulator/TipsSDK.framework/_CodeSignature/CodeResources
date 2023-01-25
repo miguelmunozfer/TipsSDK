@@ -40,10 +40,6 @@
 		<data>
 		Q4b0sF0J8BMzeF+xHgGS1qAV8Iw=
 		</data>
-		<key>Localizable.strings</key>
-		<data>
-		4Sphc6Gi8QZ/+wjtoWEh5LByHPU=
-		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		Hsg50E2nTmvB79nx+Kh4R9RVgKY=
@@ -54,7 +50,7 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		e7gP0v8QIx4udVnPQN/sHTuMdx8=
+		VAkROIMCHAWjUTA6MPb/WQM9R6c=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +62,7 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EgKX9Qjl6AiLAxux0DgtvdFsNFo=
+		QnZB6xt4z/zNDeKZOFLDr/amDjA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,6 +72,15 @@
 		<data>
 		yySRkChVVQGNL6ECEGPIDtMpZJQ=
 		</data>
+		<key>en.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4Sphc6Gi8QZ/+wjtoWEh5LByHPU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -135,13 +140,6 @@
 			HC89nGx4QimPj8Ad4GsibKgjzvn0f7BM1DgTtU8kQ0g=
 			</data>
 		</dict>
-		<key>Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
-			</data>
-		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
@@ -160,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jK/O+jj1nPzAQ1Ss3jMhIbK0xbbQ8Alda7vCZCWyhvQ=
+			am8CSoIPdJNqfT+XlnFdIgKh0sxu4ZtVHoD3Up6m5mc=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -181,7 +179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fZbf9pTSXAWis9nw2nrj29bZMEGsTw1GcpM1YN+zQq4=
+			ddUReo4mb/27DTuGzluDXa6NTEuDzC1/pD6L02Qntas=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -197,6 +195,15 @@
 			<data>
 			tlRzF/YhrAtfLg1jfEdO9RtNmCNpTX0mo3lseUJUPRA=
 			</data>
+		</dict>
+		<key>en.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
