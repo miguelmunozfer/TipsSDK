@@ -18,6 +18,8 @@ extension UIKit.UIFont {
   public func isDiabetic(_ isDiabetic: Swift.Bool)
   public func showTips()
   public func setMainColor(color: Swift.String)
+  public func setNavigationBarColor(color: Swift.String)
+  public func setNavigationTintColor(color: Swift.String)
   @objc deinit
 }
 public enum TipsGender : Swift.String, Swift.Codable {

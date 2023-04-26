@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		YsWaLwmXmzqRoy0o0S2Qov9msoo=
+		p7zVdmOWTX6rou3NmYw0WCvdRYU=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		/3T+n0h2sloDeSlp6zsp3JdbaDY=
+		+icxbr0GZc16/QK2Cd7VjvWZIZk=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		/3T+n0h2sloDeSlp6zsp3JdbaDY=
+		+icxbr0GZc16/QK2Cd7VjvWZIZk=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4RowVD6w2bMp1xRh4+54JA1ThYk=
+		4UaimcGZDU4/Kr31QkHIKZwRab0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -158,14 +158,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nVAc90eOzMwULKZbqPUujjB4GcpoBxbuBd/I/nkQAAA=
+			CmNT90BXTfA7GPP9dUuvMX47FGkEzeZow5/I4zBRczY=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yL7YDejtv9PvzpHdy3xfMKxfJyw4nVA5RMVspyqtVTw=
+			qo6T988UEGqW8rae3HQvj3CIRvzcFcJVauwHjrvBSRc=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -179,14 +179,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yL7YDejtv9PvzpHdy3xfMKxfJyw4nVA5RMVspyqtVTw=
+			qo6T988UEGqW8rae3HQvj3CIRvzcFcJVauwHjrvBSRc=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oIBpDlSIHhu/dVKzB33SBDJsqDr2TXCF3JbZxof8Q24=
+			zGk+BHkJO8ij8Ij+ElG98yWQtgjoGlJ8cxpe+7ptGI8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
