@@ -1,0 +1,1234 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Tips",
+        "printedName": "Tips",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tips",
+                "printedName": "TipsSDK.Tips",
+                "usr": "s:7TipsSDK0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TipsSDK0A0C6sharedACvpZ",
+            "mangledName": "$s7TipsSDK0A0C6sharedACvpZ",
+            "moduleName": "TipsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tips",
+                    "printedName": "TipsSDK.Tips",
+                    "usr": "s:7TipsSDK0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK0A0C6sharedACvgZ",
+                "mangledName": "$s7TipsSDK0A0C6sharedACvgZ",
+                "moduleName": "TipsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "updateProfile",
+            "printedName": "updateProfile(sex:height:weigth:birthDate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TipsSDK.TipsGender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TipsGender",
+                    "printedName": "TipsSDK.TipsGender",
+                    "usr": "s:7TipsSDK0A6GenderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Date?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK0A0C13updateProfile3sex6height6weigth9birthDateyAA0A6GenderOSg_SiSgAL10Foundation0I0VSgtF",
+            "mangledName": "$s7TipsSDK0A0C13updateProfile3sex6height6weigth9birthDateyAA0A6GenderOSg_SiSgAL10Foundation0I0VSgtF",
+            "moduleName": "TipsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDiabetic",
+            "printedName": "isDiabetic(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK0A0C10isDiabeticyySbF",
+            "mangledName": "$s7TipsSDK0A0C10isDiabeticyySbF",
+            "moduleName": "TipsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showTips",
+            "printedName": "showTips()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK0A0C04showA0yyF",
+            "mangledName": "$s7TipsSDK0A0C04showA0yyF",
+            "moduleName": "TipsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMainColor",
+            "printedName": "setMainColor(color:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK0A0C12setMainColor5colorySS_tF",
+            "mangledName": "$s7TipsSDK0A0C12setMainColor5colorySS_tF",
+            "moduleName": "TipsSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7TipsSDK0A0C",
+        "mangledName": "$s7TipsSDK0A0C",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TipsGender",
+        "printedName": "TipsGender",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "male",
+            "printedName": "male",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TipsSDK.TipsGender.Type) -> TipsSDK.TipsGender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TipsGender",
+                    "printedName": "TipsSDK.TipsGender",
+                    "usr": "s:7TipsSDK0A6GenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TipsSDK.TipsGender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TipsGender",
+                        "printedName": "TipsSDK.TipsGender",
+                        "usr": "s:7TipsSDK0A6GenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TipsSDK0A6GenderO4maleyA2CmF",
+            "mangledName": "$s7TipsSDK0A6GenderO4maleyA2CmF",
+            "moduleName": "TipsSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "female",
+            "printedName": "female",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TipsSDK.TipsGender.Type) -> TipsSDK.TipsGender",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TipsGender",
+                    "printedName": "TipsSDK.TipsGender",
+                    "usr": "s:7TipsSDK0A6GenderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TipsSDK.TipsGender.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TipsGender",
+                        "printedName": "TipsSDK.TipsGender",
+                        "usr": "s:7TipsSDK0A6GenderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TipsSDK0A6GenderO6femaleyA2CmF",
+            "mangledName": "$s7TipsSDK0A6GenderO6femaleyA2CmF",
+            "moduleName": "TipsSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TipsSDK.TipsGender?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TipsGender",
+                    "printedName": "TipsSDK.TipsGender",
+                    "usr": "s:7TipsSDK0A6GenderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TipsSDK0A6GenderO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7TipsSDK0A6GenderO8rawValueACSgSS_tcfc",
+            "moduleName": "TipsSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TipsSDK0A6GenderO8rawValueSSvp",
+            "mangledName": "$s7TipsSDK0A6GenderO8rawValueSSvp",
+            "moduleName": "TipsSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK0A6GenderO8rawValueSSvg",
+                "mangledName": "$s7TipsSDK0A6GenderO8rawValueSSvg",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7TipsSDK0A6GenderO",
+        "mangledName": "$s7TipsSDK0A6GenderO",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VitaleViewController",
+        "printedName": "VitaleViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController(im)viewDidLoad",
+            "mangledName": "$s7TipsSDK20VitaleViewControllerC11viewDidLoadyyF",
+            "moduleName": "TipsSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController(im)viewWillAppear:",
+            "mangledName": "$s7TipsSDK20VitaleViewControllerC14viewWillAppearyySbF",
+            "moduleName": "TipsSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VitaleViewController",
+                "printedName": "TipsSDK.VitaleViewController",
+                "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s7TipsSDK20VitaleViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "TipsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TipsSDK.VitaleViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VitaleViewController",
+                    "printedName": "TipsSDK.VitaleViewController",
+                    "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController(im)initWithCoder:",
+            "mangledName": "$s7TipsSDK20VitaleViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "TipsSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TipsSDK@objc(cs)VitaleViewController",
+        "mangledName": "$s7TipsSDK20VitaleViewControllerC",
+        "moduleName": "TipsSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIFont",
+        "printedName": "UIFont",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "jbs_registerFont",
+            "printedName": "jbs_registerFont(withFilenameString:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So6UIFontC7TipsSDKE16jbs_registerFont18withFilenameString6bundleySS_So8NSBundleCtFZ",
+            "mangledName": "$sSo6UIFontC7TipsSDKE16jbs_registerFont18withFilenameString6bundleySS_So8NSBundleCtFZ",
+            "moduleName": "TipsSDK",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIFont",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIFont",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1148,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1163,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1179,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1197,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1944,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1961,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1976,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1992,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2028,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 27,
+      "value": "\"TipsSDK.HealthTipListViewController\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 19,
+      "value": "\"MyVitale\/workouts\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 25,
+      "value": "\"MyVitale\/staticWorkouts\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 20,
+      "value": "\"MyVitale\/wearables\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 24,
+      "value": "\"MyVitale\/customization\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 16,
+      "value": "\"MyVitale\/vimeo\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 18,
+      "value": "\"MyVitale\/recipes\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 19,
+      "value": "\"MyVitale\/workouts\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 383,
+      "length": 25,
+      "value": "\"MyVitale\/staticWorkouts\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 20,
+      "value": "\"MyVitale\/wearables\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 24,
+      "value": "\"MyVitale\/customization\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 16,
+      "value": "\"MyVitale\/vimeo\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 554,
+      "length": 18,
+      "value": "\"MyVitale\/recipes\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 8,
+      "value": "\"60729B\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 867,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 9,
+      "value": "\"tipsSDK\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 972,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "Array",
+      "offset": 998,
+      "length": 18,
+      "value": "[\"es\", \"eu\", \"en\"]"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 6,
+      "value": "\"Male\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 8,
+      "value": "\"Female\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 6,
+      "value": "\"Male\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 8,
+      "value": "\"Female\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 8,
+      "value": "\"61C9E1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 8,
+      "value": "\"E55553\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 16,
+      "value": "\"Helvetica-Bold\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 329,
+      "length": 18,
+      "value": "\"Helvetica-Medium\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 11,
+      "value": "\"Helvetica\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 22,
+      "value": "\"com.myvitale.TipsSDK\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 28,
+      "value": "\"TipsSDK.HealthTipsHomeViewController\""
+    }
+  ]
+}

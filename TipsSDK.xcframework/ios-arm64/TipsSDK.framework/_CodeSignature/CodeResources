@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ztnGBX2x7pJoVUbY2cc7hTdOpFo=
+		jP+Y2AF6MsCzinhdaeradQlLnPY=
 		</data>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<data>
-		m3/VzJwlbSyMTaZbCXKLB7COsPQ=
+		0IlZreaCES8ceHawf3dokPWB+nE=
 		</data>
 		<key>Headers/TipsSDK.h</key>
 		<data>
@@ -18,43 +18,51 @@
 		</data>
 		<key>HealthTipCategoryCell.nib/objects-12.3+.nib</key>
 		<data>
-		yjmu9sum5zczPty1Iw0I8mxmrsc=
+		ZvLr/FoaYOUcs/A2ImsSJj+9jbU=
 		</data>
 		<key>HealthTipCategoryCell.nib/runtime.nib</key>
 		<data>
-		U6QiWoAmJJT5Epq2mqOJ2V0HZII=
+		OUtL6UcaXLi5TBJLpX3+ZjhnO8Y=
 		</data>
 		<key>HealthTipListViewController.nib</key>
 		<data>
-		gCpmCrsHF6GhBMtQhAZ25aUpW5w=
+		rHTZg+HilnD7/A87NI6n0tmtGXI=
 		</data>
 		<key>HealthTipView.nib</key>
 		<data>
-		tjJplRJwZmCVKDGCUsN2PQ5ocEo=
+		MfRVvLuMNHt9jsuYG7jTFzAdi24=
 		</data>
 		<key>HealthTipsHomeViewController.nib</key>
 		<data>
-		4jPKnLiw4+cW+thrtIFY6SV4+iM=
+		DAelZ4QQ9ibFeUtlU4U1pumt2Tw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gh5AKWulKTA0ZtKOfE8wNpSOf6I=
+		L/U+LVnaAiZzcXf6QqVhJEb5bkI=
+		</data>
+		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		YsWaLwmXmzqRoy0o0S2Qov9msoo=
+		</data>
+		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		/3T+n0h2sloDeSlp6zsp3JdbaDY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		pmKghlrCFll/Y4QXTWakLmADxI0=
+		Kyh/U21lJXj97zvW9PjYJJOrnVw=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		YTE23mDPT3SSNXi+oSYpE1VlOK4=
+		/3T+n0h2sloDeSlp6zsp3JdbaDY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zLRyBr56u7dZtfxl5XZ9b+Rj47w=
+		4RowVD6w2bMp1xRh4+54JA1ThYk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		WHu43ULP4jB2aMd96pH+NaAgaJk=
+		sVi0h+YT65f4hQNjBZr8Bn9nos0=
 		</data>
 		<key>TodayTipViewController.nib</key>
 		<data>
@@ -69,6 +77,24 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>es.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fO1U6XvrbL2C/EyPMfsckvD66mc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>eu.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mrhL6kGyeyB/H3mbJW9q6VpUxa8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -76,14 +102,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			feI+c0kXF6IOd3K/rL/MLJojQS8ZpiFFYWsMC/gX+3A=
+			bEOyXJNWXwT+Df8Fghz0/ecldr8T+vU7M/spKgoPIK0=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sz0v0jqitcRQOmSW7Ohj/04ixfqwK3CkunjCSixrgaY=
+			COXn459tINx44NOx/stJ2FWNbPkTS/HUpKvkrsFOFxU=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK.h</key>
@@ -97,63 +123,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w5EXy1MncQn6oSTwDpDBNe9UEqBXxIDxKONOMM+Aq4c=
+			k3GWkaLaIV7cyUjjtCdqnMFY4ODdkOhIY6iydQ6SBXM=
 			</data>
 		</dict>
 		<key>HealthTipCategoryCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zrJFelpyvJP6qZaOVVyrxXk64S52A3IA9uLq0Eu60Z0=
+			qp6UFJJVnUcGYGRcxgMw1bEoaztXE7cHB44CDnuiXzo=
 			</data>
 		</dict>
 		<key>HealthTipListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0vO+1sCLC2acGAPxN1GDCtYGL29TBRw6zIUuW0o3tUY=
+			vbkqbZmYRxyIb9uebQVpB7TNHlOIV6/6usoQdlADsHQ=
 			</data>
 		</dict>
 		<key>HealthTipView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JvMmSbnfdD4I/laYH1J4RPTdroVpIBQHAuuTUSu6IF0=
+			mSRDgOEeQJiEeil76YB9KeYOKZWqYS9nlYWC1ChwtcI=
 			</data>
 		</dict>
 		<key>HealthTipsHomeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HC89nGx4QimPj8Ad4GsibKgjzvn0f7BM1DgTtU8kQ0g=
+			bXK+NBxSXeHEoN5UszSd9SLymmqrzuKvx52GgEsRq10=
+			</data>
+		</dict>
+		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nVAc90eOzMwULKZbqPUujjB4GcpoBxbuBd/I/nkQAAA=
+			</data>
+		</dict>
+		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yL7YDejtv9PvzpHdy3xfMKxfJyw4nVA5RMVspyqtVTw=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDySsNr3T5Y3ob22Pv9HcSLMMrKeAGMpigzbagDoawo=
+			FzKp1g3+7q3KDL9ti9qWmiwBYbcMQws07uzqpEttjSc=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oNzv1+CTIb+4Vb+ms178lTv3xQun2fbsxD6QyplOpP0=
+			yL7YDejtv9PvzpHdy3xfMKxfJyw4nVA5RMVspyqtVTw=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+fsKUkSYobG41a/Zp4Gqv9AOXyhG5O7yzet1IefAXwU=
+			oIBpDlSIHhu/dVKzB33SBDJsqDr2TXCF3JbZxof8Q24=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NzUkhcwJDCbPlmchRmiyZcFgD3AKodt0KMfTduCgqWQ=
+			J61WlQ+lQLuipfo34OrZU/jjK7wz9EYuP+hLabnVuzE=
 			</data>
 		</dict>
 		<key>TodayTipViewController.nib</key>
@@ -168,6 +208,24 @@
 			<key>hash2</key>
 			<data>
 			qAkkOG8hGZRVFVqP6DqfKqIU1eQdxsG9xJ3KM4xXreQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qeJP+LkaI9wf4okt6ox8zEq/4D8Hu17mTrQA6FMpxQw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>eu.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			87+FUcd1dlfkRundORgnB0WQ/WCnZoqbIeBQkyWCKhw=
 			</data>
 			<key>optional</key>
 			<true/>

@@ -6,6 +6,6 @@ framework module TipsSDK {
 }
 
 module TipsSDK.Swift {
-    header "TipsSDK-Swift.h"
-    requires objc
+  header "TipsSDK-Swift.h"
+  requires objc
 }
