@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		jP+Y2AF6MsCzinhdaeradQlLnPY=
+		j0hDAzvf8ttbRwFy2zCfF5Xh+98=
 		</data>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<data>
-		Fc+PRBjweo0+hwikS2P5fEx0Zb0=
+		3GnVpL5tZ7f7V8oOA5RYY24doyI=
 		</data>
 		<key>Headers/TipsSDK.h</key>
 		<data>
@@ -38,47 +38,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KXt79AfLsshdDfAmUVyqV+d+XSM=
+		xqhD4LGZxwOJwP073P58yuwrF9A=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		p7zVdmOWTX6rou3NmYw0WCvdRYU=
+		Llb5R3S1lumLpJONxz+p1ZwmcVY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VMgfCTJeB/NqLYszXsm4o7TTuuQ=
+		iBkGzAVjz7ty+ijFKhFlpoz8XYU=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		cEJupvFTENNbfgUOo4agW4YJPHQ=
+		M1vCJGWky5MDjiBH0YiB17kRfgs=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VMgfCTJeB/NqLYszXsm4o7TTuuQ=
+		iBkGzAVjz7ty+ijFKhFlpoz8XYU=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1o93RzA4lWWbbp7Fl9J0yoboHbU=
+		7n/JZYZQXGEFROw6CH75oyVBD7U=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		p7zVdmOWTX6rou3NmYw0WCvdRYU=
+		Llb5R3S1lumLpJONxz+p1ZwmcVY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		SXtc162E1xesgO0AdMU4/7YvzK8=
+		6ECHp7MRxSJiFJj5j3EXiELC3Yw=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ctxzDdR6q5lnADFQgKBVtdjkiU4=
+		eD58oLMKCXjAkrorHjO6xbIYYKY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		SXtc162E1xesgO0AdMU4/7YvzK8=
+		6ECHp7MRxSJiFJj5j3EXiELC3Yw=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dBYk7RTYU1C4W4pUaVeiAR6wrmI=
+		TK/R/OPRrkNwfiZC7m80vi32q50=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,6 +88,24 @@
 		<data>
 		yySRkChVVQGNL6ECEGPIDtMpZJQ=
 		</data>
+		<key>ca.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WStNLbv4eB+eU0o8YrI77zqLKGc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y1NXiI+Dzlj4Wt6/pJ8bz6ojyiw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/TipsStrings.strings</key>
 		<dict>
 			<key>hash</key>
@@ -115,6 +133,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>it.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			smnMjUb7a0cLb04SWKEgk71u+bI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -122,14 +149,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bEOyXJNWXwT+Df8Fghz0/ecldr8T+vU7M/spKgoPIK0=
+			+HkiJRYdLz32HsJJFi2NQIn2z8nypf/ZVR+0GVXb0RE=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZIf+RkVDZmgqwX5iKQ5yUU+eh7TOGrOpnk7RYXXozP4=
+			3nw3irlm1P8UG0OzUvC0gTLmgDLsL5sgTuc7n2Psil0=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK.h</key>
@@ -178,70 +205,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmNT90BXTfA7GPP9dUuvMX47FGkEzeZow5/I4zBRczY=
+			UBHcd5DOZqEytadT6+Dk4vXRWQCD75JzIhDHP5KtqrA=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8n8f4/25sSiCDoJZBmpaOiRrSywPYXJZuR340LVDThI=
+			C5WBn9L7aZ0W33J2idTeFzN8lt3DyXZefLRClVCDiQ0=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x61GBQMKwrYDxNE3sQAX0sw6HgLZt6y+Uf9dGY9GNGk=
+			RJ4l/hakwfZ/hmy0Fe+z+CIPhGoBpfkhgrHYPpck7c0=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8n8f4/25sSiCDoJZBmpaOiRrSywPYXJZuR340LVDThI=
+			C5WBn9L7aZ0W33J2idTeFzN8lt3DyXZefLRClVCDiQ0=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qdqbe629DAvTq0H6jTlZx2T+Hm6R4QRfYydf8vSgS4A=
+			jDtwwC+Rb2v+niE9aZ6N/eA4yNeUg83B1o2m7sIfnfo=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmNT90BXTfA7GPP9dUuvMX47FGkEzeZow5/I4zBRczY=
+			UBHcd5DOZqEytadT6+Dk4vXRWQCD75JzIhDHP5KtqrA=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ng4QYqYe3vKj7aXSkd7mkB4FFusmrkxK0oJoTi6o2rg=
+			JwhtJyYF2ZrUDaNFkJqH+MgEwbFCLRV14LAuRcFsqnU=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2cbpLdGKwl/DGZ8lDeb5KjgU3+2W/g+6ptJF20WNHIk=
+			iueEaBjDyH3PeVGMaf6cN7bhtZBWuaSmP9rvGOyWEYI=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ng4QYqYe3vKj7aXSkd7mkB4FFusmrkxK0oJoTi6o2rg=
+			JwhtJyYF2ZrUDaNFkJqH+MgEwbFCLRV14LAuRcFsqnU=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oHeD+FTao8zKdzOn2rqFCTYJME1EYL4gSlneEDm3aKs=
+			6169orftGrZK6GsQw4GkJIJdDl0l2T2R/1sqbCdtYwk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -257,6 +284,24 @@
 			<data>
 			tlRzF/YhrAtfLg1jfEdO9RtNmCNpTX0mo3lseUJUPRA=
 			</data>
+		</dict>
+		<key>ca.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jJk+yRMFWqQAft6UWfih0F39GgpaAX4mXZtPSOxeCik=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YLtSI+PSIIrw8rBllS3x//XDs/AVJP0rDbvYOPRBOV4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>en.lproj/TipsStrings.strings</key>
 		<dict>
@@ -281,6 +326,15 @@
 			<key>hash2</key>
 			<data>
 			87+FUcd1dlfkRundORgnB0WQ/WCnZoqbIeBQkyWCKhw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			55PvOm5T4ti4aST2dNTlfZp6K/RoS8cFBEZbi5yyNco=
 			</data>
 			<key>optional</key>
 			<true/>

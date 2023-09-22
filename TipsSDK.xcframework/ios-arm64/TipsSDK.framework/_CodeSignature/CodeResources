@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		jP+Y2AF6MsCzinhdaeradQlLnPY=
+		j0hDAzvf8ttbRwFy2zCfF5Xh+98=
 		</data>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<data>
-		0IlZreaCES8ceHawf3dokPWB+nE=
+		k3wj9q9Qdi7gQFHx38Vh5XfHc/s=
 		</data>
 		<key>Headers/TipsSDK.h</key>
 		<data>
@@ -38,27 +38,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		L/U+LVnaAiZzcXf6QqVhJEb5bkI=
+		5sgT2bWB6GmFDaq0VOUCqcUHNEE=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		p7zVdmOWTX6rou3NmYw0WCvdRYU=
+		Llb5R3S1lumLpJONxz+p1ZwmcVY=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		+icxbr0GZc16/QK2Cd7VjvWZIZk=
+		+Vh/eHc+dF0307xjQG11kPyrfus=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Kyh/U21lJXj97zvW9PjYJJOrnVw=
+		dhRbuMkJgAvypG06pFIHzn7YFiw=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		+icxbr0GZc16/QK2Cd7VjvWZIZk=
+		+Vh/eHc+dF0307xjQG11kPyrfus=
 		</data>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4UaimcGZDU4/Kr31QkHIKZwRab0=
+		VP0lqmrdloy7YBj7XndTmILalCQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,6 +68,24 @@
 		<data>
 		yySRkChVVQGNL6ECEGPIDtMpZJQ=
 		</data>
+		<key>ca.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WStNLbv4eB+eU0o8YrI77zqLKGc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Y1NXiI+Dzlj4Wt6/pJ8bz6ojyiw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/TipsStrings.strings</key>
 		<dict>
 			<key>hash</key>
@@ -95,6 +113,15 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>it.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			smnMjUb7a0cLb04SWKEgk71u+bI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -102,14 +129,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bEOyXJNWXwT+Df8Fghz0/ecldr8T+vU7M/spKgoPIK0=
+			+HkiJRYdLz32HsJJFi2NQIn2z8nypf/ZVR+0GVXb0RE=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			COXn459tINx44NOx/stJ2FWNbPkTS/HUpKvkrsFOFxU=
+			wsbHzPfwUCAH8U7hjuQizWqZuJ6L6YB1Eu/uzizBeQQ=
 			</data>
 		</dict>
 		<key>Headers/TipsSDK.h</key>
@@ -158,35 +185,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CmNT90BXTfA7GPP9dUuvMX47FGkEzeZow5/I4zBRczY=
+			UBHcd5DOZqEytadT6+Dk4vXRWQCD75JzIhDHP5KtqrA=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qo6T988UEGqW8rae3HQvj3CIRvzcFcJVauwHjrvBSRc=
+			172sAcKwHlaAqGW9mDT7IbNxSFcN598N/XavM361IlI=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FzKp1g3+7q3KDL9ti9qWmiwBYbcMQws07uzqpEttjSc=
+			Z+AJiWV9g09l4Qv2VFKPvoCQ+zNu9JPGEuBV/t9hMFc=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qo6T988UEGqW8rae3HQvj3CIRvzcFcJVauwHjrvBSRc=
+			172sAcKwHlaAqGW9mDT7IbNxSFcN598N/XavM361IlI=
 			</data>
 		</dict>
 		<key>Modules/TipsSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zGk+BHkJO8ij8Ij+ElG98yWQtgjoGlJ8cxpe+7ptGI8=
+			2+WLOsFz6hS14SOD+10AuuJsnHNPveB00ffcTuKyxTg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -202,6 +229,24 @@
 			<data>
 			tlRzF/YhrAtfLg1jfEdO9RtNmCNpTX0mo3lseUJUPRA=
 			</data>
+		</dict>
+		<key>ca.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jJk+yRMFWqQAft6UWfih0F39GgpaAX4mXZtPSOxeCik=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>de.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YLtSI+PSIIrw8rBllS3x//XDs/AVJP0rDbvYOPRBOV4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>en.lproj/TipsStrings.strings</key>
 		<dict>
@@ -226,6 +271,15 @@
 			<key>hash2</key>
 			<data>
 			87+FUcd1dlfkRundORgnB0WQ/WCnZoqbIeBQkyWCKhw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>it.lproj/TipsStrings.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			55PvOm5T4ti4aST2dNTlfZp6K/RoS8cFBEZbi5yyNco=
 			</data>
 			<key>optional</key>
 			<true/>

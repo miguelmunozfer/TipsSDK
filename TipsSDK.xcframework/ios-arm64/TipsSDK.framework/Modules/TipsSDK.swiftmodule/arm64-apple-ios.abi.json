@@ -996,6 +996,153 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipView.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 15,
+      "value": "\"HealthTipView\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 842,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 192,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 219,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 246,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 273,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 14,
+      "value": "\"%02X%02X%02X\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 428,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 455,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 619,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 661,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 749,
+      "length": 8,
+      "value": "0xff0000"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 762,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 793,
+      "length": 6,
+      "value": "0xff00"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 833,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 896,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 934,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 971,
+      "length": 4,
+      "value": "0xff"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 984,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1131,
@@ -1078,6 +1225,146 @@
       "offset": 2028,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2068,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2107,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2145,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2182,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2222,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2264,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 2883,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3144,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 3603,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3776,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3851,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4064,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4193,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4576,
+      "length": 66,
+      "value": "\"UIFont+:  Failed to register font - path for resource not found.\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4774,
+      "length": 68,
+      "value": "\"UIFont+:  Failed to register font - font data could not be loaded.\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 4963,
+      "length": 72,
+      "value": "\"UIFont+:  Failed to register font - data provider could not be loaded.\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5138,
+      "length": 63,
+      "value": "\"UIFont+:  Failed to register font - font could not be loaded.\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5347,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 5374,
+      "length": 132,
+      "value": "\"UIFont+:  Failed to register font - register graphics font failed - this font may have already been registered in the main bundle.\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipListViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 345,
+      "length": 29,
+      "value": "\"HealthTipListViewController\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipListViewController.swift",
@@ -1202,36 +1489,421 @@
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
       "kind": "Array",
       "offset": 998,
+      "length": 36,
+      "value": "[\"es\", \"eu\", \"en\", \"ca\", \"it\", \"de\"]"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1834,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 36,
+      "value": "\"Couldn't create document directory\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2129,
+      "length": 3,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2134,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2246,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2384,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2582,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2629,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2775,
+      "length": 9,
+      "value": "\"youtube\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 2817,
+      "length": 32,
+      "value": "\"https:\/\/www.youtube.com\/embed\/\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3022,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 3651,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4093,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 6060,
+      "length": 8,
+      "value": "\"60729B\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsSDKUtils.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7136,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 16,
+      "value": "\"darkModeChange\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 493,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 567,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1947,
+      "length": 8,
+      "value": "\"Cerrar\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1968,
+      "length": 17,
+      "value": "\"TrainingStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2044,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2248,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/CustomNavViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2414,
+      "length": 14,
+      "value": "\"isDarkModeOn\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 481,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "StringLiteral",
+      "offset": 636,
+      "length": 39,
+      "value": "\"health-tip-image-\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 51,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 38,
+      "value": "\"health-tip-icon-\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 51,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1124,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1130,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1175,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 1337,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Views\/HealthTipCategoryCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 6,
+      "value": "\"Male\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 8,
+      "value": "\"Female\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 217,
+      "length": 6,
+      "value": "\"Male\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 8,
+      "value": "\"Female\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 683,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1395,
+      "length": 8,
+      "value": "\"Sueño\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1417,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1478,
+      "length": 8,
+      "value": "\"Sueño\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 9,
+      "value": "\"Estrés\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1570,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1631,
+      "length": 9,
+      "value": "\"Estrés\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1701,
+      "length": 15,
+      "value": "\"Actitud vital\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1730,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1791,
+      "length": 15,
+      "value": "\"Actitud vital\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1866,
+      "length": 15,
+      "value": "\"Entrenamiento\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1895,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1956,
+      "length": 15,
+      "value": "\"Entrenamiento\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2035,
+      "length": 12,
+      "value": "\"Nutrición\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2061,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2122,
+      "length": 12,
+      "value": "\"Nutrición\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2196,
       "length": 18,
-      "value": "[\"es\", \"eu\", \"en\"]"
+      "value": "\"Ctrl. glucémico\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 217,
-      "length": 6,
-      "value": "\"Male\""
+      "offset": 2228,
+      "length": 13,
+      "value": "\"TipsStrings\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 234,
-      "length": 8,
-      "value": "\"Female\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 6,
-      "value": "\"Male\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 8,
-      "value": "\"Female\""
+      "offset": 2289,
+      "length": 18,
+      "value": "\"Ctrl. glucémico\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/TipsConfig.swift",
@@ -1274,6 +1946,202 @@
       "offset": 419,
       "length": 22,
       "value": "\"com.myvitale.TipsSDK\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 484,
+      "length": 78,
+      "value": "\"https:\/\/myvitale.com\/tmp\/tips_\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 556,
+      "length": 1,
+      "value": "\".json\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 709,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 794,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Data\/DataserviceHealthTips.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/VitaleViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 21,
+      "value": "\"updateCustomization\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/VitaleViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/VitaleViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 559,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/VitaleViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1247,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 495,
+      "length": 30,
+      "value": "\"HealthTipsHomeViewController\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 764,
+      "length": 18,
+      "value": "\"Educational tips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 796,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 18,
+      "value": "\"Educational tips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 926,
+      "length": 23,
+      "value": "\"HealthTipCategoryCell\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 14,
+      "value": "\"categoryCell\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1089,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1101,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1115,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1128,
+      "length": 4,
+      "value": "20.0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1193,
+      "length": 12,
+      "value": "\"back-image\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1657,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2051,
+      "length": 14,
+      "value": "\"categoryCell\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2422,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2429,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2485,
+      "length": 3,
+      "value": "140"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2972,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
