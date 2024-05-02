@@ -27,6 +27,33 @@ Tips.shared.showTips()
 
 ```
 
+
+## Handling Tips Events
+
+To enable event handling in your application, you need to set the `eventsDelegate` of the `TipsEvents` singleton to an appropriate delegate that conforms to the `TipsEventsDelegate` protocol. Below is an example of how to set up your `ViewController` to handle these events.
+
+### Step 1: Set the Delegate
+
+First, ensure your `ViewController` or other appropriate class sets itself as the delegate to receive training events:
+
+```swift
+TipsEvents.shared.eventsDelegate = self
+
+```
+
+### Step 2: Implement the Delegate Protocol
+
+Extend your ViewController to conform to the TipsEventsDelegate protocol. Implement the required methods to handle the events you are interested in. For example, to handle an event and print its name:
+
+```swift
+extension ViewController: TipsEventsDelegate {
+    func sendEvent(_ event: TipEvent) {
+        print(event.eventName ?? "")
+    }
+}
+
+```
+
 ### Custom configuration
 You can customize different Nutrition module interfaces using this functions:
 

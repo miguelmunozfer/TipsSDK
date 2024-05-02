@@ -6,12 +6,521 @@
     "children": [
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TipsEvents",
+        "printedName": "TipsEvents",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TipsEvents",
+                "printedName": "TipsSDK.TipsEvents",
+                "usr": "s:7TipsSDK0A6EventsC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TipsSDK0A6EventsC6sharedACvpZ",
+            "mangledName": "$s7TipsSDK0A6EventsC6sharedACvpZ",
+            "moduleName": "TipsSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TipsEvents",
+                    "printedName": "TipsSDK.TipsEvents",
+                    "usr": "s:7TipsSDK0A6EventsC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK0A6EventsC6sharedACvgZ",
+                "mangledName": "$s7TipsSDK0A6EventsC6sharedACvgZ",
+                "moduleName": "TipsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "eventsDelegate",
+            "printedName": "eventsDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "TipsSDK.TipsEventsDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvp",
+            "mangledName": "$s7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvp",
+            "moduleName": "TipsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TipsSDK.TipsEventsDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TipsEventsDelegate",
+                        "printedName": "TipsSDK.TipsEventsDelegate",
+                        "usr": "s:7TipsSDK0A14EventsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvg",
+                "mangledName": "$s7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvg",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "TipsSDK.TipsEventsDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TipsEventsDelegate",
+                        "printedName": "TipsSDK.TipsEventsDelegate",
+                        "usr": "s:7TipsSDK0A14EventsDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvs",
+                "mangledName": "$s7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvs",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvM",
+                "mangledName": "$s7TipsSDK0A6EventsC14eventsDelegateAA0acE0_pSgvM",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7TipsSDK0A6EventsC",
+        "mangledName": "$s7TipsSDK0A6EventsC",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TipsEventsDelegate",
+        "printedName": "TipsEventsDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TipEvent",
+                "printedName": "TipsSDK.TipEvent",
+                "usr": "s:7TipsSDK8TipEventV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK0A14EventsDelegateP9sendEventyyAA03TipF0VF",
+            "mangledName": "$s7TipsSDK0A14EventsDelegateP9sendEventyyAA03TipF0VF",
+            "moduleName": "TipsSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : TipsSDK.TipsEventsDelegate>",
+            "sugared_genericSig": "<Self where Self : TipsSDK.TipsEventsDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7TipsSDK0A14EventsDelegateP",
+        "mangledName": "$s7TipsSDK0A14EventsDelegateP",
+        "moduleName": "TipsSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "TipsSDK",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TipEvent",
+        "printedName": "TipEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventName",
+            "printedName": "eventName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TipsSDK8TipEventV9eventNameSSSgvp",
+            "mangledName": "$s7TipsSDK8TipEventV9eventNameSSSgvp",
+            "moduleName": "TipsSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK8TipEventV9eventNameSSSgvg",
+                "mangledName": "$s7TipsSDK8TipEventV9eventNameSSSgvg",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK8TipEventV9eventNameSSSgvs",
+                "mangledName": "$s7TipsSDK8TipEventV9eventNameSSSgvs",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TipsSDK8TipEventV9eventNameSSSgvM",
+                "mangledName": "$s7TipsSDK8TipEventV9eventNameSSSgvM",
+                "moduleName": "TipsSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TipEvent",
+                "printedName": "TipsSDK.TipEvent",
+                "usr": "s:7TipsSDK8TipEventV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TipsSDK8TipEventV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TipsSDK8TipEventV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TipsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK8TipEventV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7TipsSDK8TipEventV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TipsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7TipsSDK8TipEventV",
+        "mangledName": "$s7TipsSDK8TipEventV",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TipDevice",
+        "printedName": "TipDevice",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TipDevice",
+                "printedName": "TipsSDK.TipDevice",
+                "usr": "s:7TipsSDK9TipDeviceV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TipsSDK9TipDeviceV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TipsSDK9TipDeviceV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TipsSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TipsSDK9TipDeviceV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7TipsSDK9TipDeviceV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TipsSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:7TipsSDK9TipDeviceV",
+        "mangledName": "$s7TipsSDK9TipDeviceV",
+        "moduleName": "TipsSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -852,6 +1361,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
           }
         ]
       },
@@ -871,6 +1387,164 @@
         "printedName": "Accelerate",
         "declKind": "Import",
         "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "TipsSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDevice",
+        "printedName": "UIDevice",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "modelName",
+            "printedName": "modelName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8UIDeviceC7TipsSDKE9modelNameSSvpZ",
+            "mangledName": "$sSo8UIDeviceC7TipsSDKE9modelNameSSvpZ",
+            "moduleName": "TipsSDK",
+            "static": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8UIDeviceC7TipsSDKE9modelNameSSvgZ",
+                "mangledName": "$sSo8UIDeviceC7TipsSDKE9modelNameSSvgZ",
+                "moduleName": "TipsSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIDevice",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIDevice",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1008,6 +1682,1448 @@
       "offset": 842,
       "length": 2,
       "value": "20"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 358,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 792,
+      "length": 29,
+      "value": "\"iPod touch (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 839,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 29,
+      "value": "\"iPod touch (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 942,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 998,
+      "length": 29,
+      "value": "\"iPod touch (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1045,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1071,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1129,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1185,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1214,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1311,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1354,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1439,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1468,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1524,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1552,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1608,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1641,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1697,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1726,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1782,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1816,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1957,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 1998,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2041,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2074,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2088,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2130,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2158,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2214,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2247,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2331,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2387,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2416,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2430,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2472,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2505,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2561,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2646,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2675,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2764,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2820,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2857,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2913,
+      "length": 28,
+      "value": "\"iPhone SE (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2959,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3015,
+      "length": 16,
+      "value": "\"iPhone 12 mini\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3049,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3105,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3134,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3190,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3223,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3279,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3316,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3372,
+      "length": 16,
+      "value": "\"iPhone 13 mini\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3406,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3462,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3491,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3547,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3580,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3636,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3673,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3684,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3695,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3706,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3729,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3755,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3766,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3777,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3811,
+      "length": 23,
+      "value": "\"iPad (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3852,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3863,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3874,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3908,
+      "length": 23,
+      "value": "\"iPad (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3949,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 3961,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4005,
+      "length": 23,
+      "value": "\"iPad (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4046,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4057,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4102,
+      "length": 23,
+      "value": "\"iPad (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4143,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4155,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4199,
+      "length": 23,
+      "value": "\"iPad (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4240,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4252,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4296,
+      "length": 23,
+      "value": "\"iPad (8th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4337,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4349,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4393,
+      "length": 23,
+      "value": "\"iPad (9th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4434,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4445,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4456,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4490,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4518,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4529,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4574,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4604,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4616,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4660,
+      "length": 27,
+      "value": "\"iPad Air (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4705,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4717,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4761,
+      "length": 27,
+      "value": "\"iPad Air (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4806,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4817,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4828,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4862,
+      "length": 11,
+      "value": "\"iPad mini\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4891,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4902,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4913,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4947,
+      "length": 13,
+      "value": "\"iPad mini 2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4978,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 4989,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5000,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5034,
+      "length": 13,
+      "value": "\"iPad mini 3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5065,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5076,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5121,
+      "length": 13,
+      "value": "\"iPad mini 4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5152,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5164,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5208,
+      "length": 28,
+      "value": "\"iPad mini (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5254,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5266,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5310,
+      "length": 28,
+      "value": "\"iPad mini (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5356,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5367,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5412,
+      "length": 21,
+      "value": "\"iPad Pro (9.7-inch)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5451,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5462,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5507,
+      "length": 22,
+      "value": "\"iPad Pro (10.5-inch)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5547,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5558,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5569,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5580,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5603,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5658,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5669,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5714,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5769,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5781,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5793,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5805,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5825,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5880,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5891,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5936,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 5993,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6004,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6049,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6106,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6117,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6128,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6139,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6162,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6219,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6231,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6275,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6332,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6344,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6356,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6369,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6388,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6445,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6501,
+      "length": 10,
+      "value": "\"Apple TV\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6529,
+      "length": 12,
+      "value": "\"AppleTV6,2\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6585,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6616,
+      "length": 19,
+      "value": "\"AudioAccessory1,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6672,
+      "length": 9,
+      "value": "\"HomePod\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6699,
+      "length": 19,
+      "value": "\"AudioAccessory5,1\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6755,
+      "length": 14,
+      "value": "\"HomePod mini\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6787,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6795,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6805,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6852,
+      "length": 104,
+      "value": "\"Simulator \""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6915,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6948,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 6955,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7869,
+      "length": 20,
+      "value": "\"event_timestamp_ms\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7915,
+      "length": 13,
+      "value": "\"app_user_id\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7955,
+      "length": 13,
+      "value": "\"locale_code\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7996,
+      "length": 14,
+      "value": "\"country_code\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7869,
+      "length": 20,
+      "value": "\"event_timestamp_ms\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7915,
+      "length": 13,
+      "value": "\"app_user_id\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7955,
+      "length": 13,
+      "value": "\"locale_code\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 7996,
+      "length": 14,
+      "value": "\"country_code\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 8106,
+      "length": 5,
+      "value": "\"ios\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 8281,
+      "length": 12,
+      "value": "\"version_os\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "StringLiteral",
+      "offset": 8281,
+      "length": 12,
+      "value": "\"version_os\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Events\/EventModels.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8394,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Extensions.swift",
@@ -1774,134 +3890,176 @@
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 573,
+      "length": 18,
+      "value": "\"ClickAtSleepTips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 633,
+      "length": 19,
+      "value": "\"ClickAtStressTips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 19,
+      "value": "\"ClickAtHabitsTips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 754,
+      "length": 21,
+      "value": "\"ClickAtTrainingTips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 820,
+      "length": 22,
+      "value": "\"ClickAtNutritionTips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 885,
+      "length": 20,
+      "value": "\"ClickAtGlucoseTips\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "IntegerLiteral",
-      "offset": 683,
+      "offset": 1132,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 1395,
+      "offset": 1844,
       "length": 8,
       "value": "\"Sueño\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1417,
-      "length": 13,
-      "value": "\"TipsStrings\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1478,
-      "length": 8,
-      "value": "\"Sueño\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1547,
-      "length": 9,
-      "value": "\"Estrés\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1570,
-      "length": 13,
-      "value": "\"TipsStrings\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1631,
-      "length": 9,
-      "value": "\"Estrés\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1701,
-      "length": 15,
-      "value": "\"Actitud vital\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1730,
-      "length": 13,
-      "value": "\"TipsStrings\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1791,
-      "length": 15,
-      "value": "\"Actitud vital\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
       "offset": 1866,
-      "length": 15,
-      "value": "\"Entrenamiento\""
-    },
-    {
-      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
-      "kind": "StringLiteral",
-      "offset": 1895,
       "length": 13,
       "value": "\"TipsStrings\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 1956,
-      "length": 15,
-      "value": "\"Entrenamiento\""
+      "offset": 1927,
+      "length": 8,
+      "value": "\"Sueño\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 2035,
-      "length": 12,
-      "value": "\"Nutrición\""
+      "offset": 1996,
+      "length": 9,
+      "value": "\"Estrés\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 2061,
+      "offset": 2019,
       "length": 13,
       "value": "\"TipsStrings\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 2122,
+      "offset": 2080,
+      "length": 9,
+      "value": "\"Estrés\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2150,
+      "length": 15,
+      "value": "\"Actitud vital\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2179,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2240,
+      "length": 15,
+      "value": "\"Actitud vital\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2315,
+      "length": 15,
+      "value": "\"Entrenamiento\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2344,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2405,
+      "length": 15,
+      "value": "\"Entrenamiento\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2484,
       "length": 12,
       "value": "\"Nutrición\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 2196,
+      "offset": 2510,
+      "length": 13,
+      "value": "\"TipsStrings\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2571,
+      "length": 12,
+      "value": "\"Nutrición\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
+      "kind": "StringLiteral",
+      "offset": 2645,
       "length": 18,
       "value": "\"Ctrl. glucémico\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 2228,
+      "offset": 2677,
       "length": 13,
       "value": "\"TipsStrings\""
     },
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/Models\/HealthTipsModels.swift",
       "kind": "StringLiteral",
-      "offset": 2289,
+      "offset": 2738,
       "length": 18,
       "value": "\"Ctrl. glucémico\""
     },
@@ -2139,7 +4297,7 @@
     {
       "filePath": "\/Users\/mmunozfer\/Documents\/TipsSDK\/TipsSDK\/Tips\/ViewControllers\/HealthTipsHomeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2972,
+      "offset": 3041,
       "length": 4,
       "value": "true"
     },
@@ -2149,6 +4307,104 @@
       "offset": 191,
       "length": 28,
       "value": "\"TipsSDK.HealthTipsHomeViewController\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 727,
+      "length": 12,
+      "value": "\"back-image\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 25,
+      "value": "\"health-tip-icon-glucose\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 24,
+      "value": "\"health-tip-icon-habits\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1249,
+      "length": 27,
+      "value": "\"health-tip-icon-nutrition\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1425,
+      "length": 23,
+      "value": "\"health-tip-icon-sleep\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1597,
+      "length": 23,
+      "value": "\"health-tip-icon-sport\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1771,
+      "length": 24,
+      "value": "\"health-tip-icon-stress\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1950,
+      "length": 26,
+      "value": "\"health-tip-image-glucose\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2129,
+      "length": 25,
+      "value": "\"health-tip-image-habits\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2313,
+      "length": 28,
+      "value": "\"health-tip-image-nutrition\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2492,
+      "length": 24,
+      "value": "\"health-tip-image-sleep\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2667,
+      "length": 24,
+      "value": "\"health-tip-image-sport\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2844,
+      "length": 25,
+      "value": "\"health-tip-image-stress\""
+    },
+    {
+      "filePath": "\/Users\/mmunozfer\/Library\/Developer\/Xcode\/DerivedData\/TipsSDK-gsnjdodlhdsexpfxjifzoqcjprnz\/Build\/Intermediates.noindex\/ArchiveIntermediates\/TipsSDK\/IntermediateBuildFilesPath\/TipsSDK.build\/Release-iphonesimulator\/TipsSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 2996,
+      "length": 11,
+      "value": "\"today-tip\""
     }
   ]
 }
